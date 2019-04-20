@@ -368,7 +368,7 @@ void Application::initRenderer()
   try
   {
     m_context->setEntryPointCount(1); // 0 = render
-    m_context->setRayTypeCount(0);    // This initial demo is not shooting any rays.
+    m_context->setRayTypeCount(1);    // This initial demo is not shooting any rays.
 
     m_context->setStackSize(m_stackSize);
     std::cout << "stackSize = " << m_stackSize << std::endl;
